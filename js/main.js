@@ -47,10 +47,10 @@ $(function() {
   $('.owl-carousel').owlCarousel({
     items:1,
     loop:true,
-    nav:true,
-    // autoplay:true,
+    nav:false,
+    autoplay:true,
     autoplayTimeout:5000,
-    animateOut: 'fadeOut',
+    animateOut:'fadeOut',
   })
 
 });

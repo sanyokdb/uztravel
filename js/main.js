@@ -44,8 +44,18 @@ tpl:'<div class="fancybox-share"><h1>{{SHARE}}</h1><p><a class="fancybox-share__
 
 $(function() {
 
-  $('.owl-carousel').owlCarousel({
+  $('.mainslider').owlCarousel({
     items:1,
+    loop:true,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    animateOut:'fadeOut',
+  })
+
+  $('.owl-tours').owlCarousel({
+    items:3,
+    margin:30,
     loop:true,
     nav:false,
     autoplay:true,
